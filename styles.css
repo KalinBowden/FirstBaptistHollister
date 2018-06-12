@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.title
+{
+    font-family: 'Ruda', sans-serif;
+    color: ghostwhite;
+    font-size: 2em;
+}
+
+.navbar
+{
+    background: linear-gradient(45deg, rgba(54, 54, 54, .75), rgba(74, 74, 74, .75));
+}
+
+.container-fluid
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.landing
+{
+    background-image: url("assets/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54em;
+}
+
+.cta
+{
+    color: ghostwhite;
+    padding: 1.2em;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 10%;
+    background: linear-gradient(45deg, rgba(54, 54, 54, .75), rgba(74, 74, 74, .75));
+    box-shadow: dimgray .7em .7em .7em;
+    border-radius: 1.2em;
+    text-align: right;
+} 
+
+.cta h1 
+{
+    font-family: 'Ruda', sans-serif;
+    text-align: right;
+    font-size: 3.8em;
+}
+
+.cta h4
+{
+    font-family: 'Ruda', sans-serif;
+    text-align: right;
+}
+
+.cta button
+{
+    font-size: 1.4em;
+    text-align: center;
+}

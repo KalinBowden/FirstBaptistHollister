@@ -1,3 +1,14 @@
+/* Color Scheme */
+/* Primary */
+.primary-0
+{
+   background-color:  rgba(54, 54, 54, 1);
+}
+
+/* Tone */
+
+/*  */
+
 body
 {
     margin: 0;
@@ -5,16 +16,29 @@ body
     border: 0;
 }
 
+i
+{
+    font-size: 9em;
+    color: azure;
+    margin: .2em;
+}
+
+nav
+{
+    background: linear-gradient(135deg, #014d98, #27415a);
+}
+
 .title
 {
     font-family: 'Ruda', sans-serif;
     color: ghostwhite;
-    font-size: 2em;
+    font-size: 2.66em;
+    text-shadow: #014d98 .15em .15em .5em;
 }
 
 .navbar
 {
-    background: linear-gradient(45deg, rgba(54, 54, 54, .75), rgba(74, 74, 74, .75));
+    background: linear-gradient(45deg, rgba(54, 54, 54, .75) rgba(74, 74, 74, .75));
 }
 
 .container-fluid
@@ -22,6 +46,45 @@ body
     padding: 0;
     margin: 0;
     border: 0;
+}
+
+.welcome
+{
+    background: linear-gradient(135deg, #014d98, #27415a);
+    color: ghostwhite;
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    padding-top: 1.8em;
+    padding-bottom: 3em;
+}
+
+.welcome p
+{
+    background-color: rgba(54, 54, 54);
+    padding: .25em;
+    border-radius: 250px;
+    height: 250px;
+    width: 250px;
+}
+
+.note0
+{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: center;
+    border-right-color: azure;
+    border-right-style: solid;
+    border-right-width: .04em;
+}
+
+.note1
+{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: center;
+    border-left-color: azure;
+    border-left-style: solid;
+    border-left-width: .04em;
 }
 
 .landing
@@ -34,7 +97,7 @@ body
 
 .cta
 {
-    color: ghostwhite;
+    color:  ghostwhite;;
     padding: 1.2em;
     margin-left: 60%;
     margin-right: 10%;
@@ -63,3 +126,29 @@ body
     font-size: 1.4em;
     text-align: center;
 }
+
+.box-a0
+{
+    background: linear-gradient(-135deg, #014d98, #27415a);
+    padding: 5%;
+    text-align: center;
+}
+
+.box-a1
+{
+    background: linear-gradient(-135deg, #9a3749, #3d161d);
+    padding: 5%;
+}
+
+.box-b0
+{
+    background: linear-gradient(-135deg, #9a3749, #3d161d);
+    height: 20em;
+}
+
+.box-b1
+{
+    background: linear-gradient(-135deg, #014d98, #27415a);
+    height: 20em;
+}
+    

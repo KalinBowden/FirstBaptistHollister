@@ -5,14 +5,17 @@
    background-color:  rgba(54, 54, 54, 1);
 }
 
-/* Tone */
-
-/*  */
-
 body
 {
     margin: 0;
     padding: 0;
+    border: 0;
+}
+
+.container-fluid
+{
+    padding: 0;
+    margin: 0;
     border: 0;
 }
 
@@ -45,12 +48,7 @@ nav
     box-shadow: black 0px 7px 7px;
 }
 
-.container-fluid
-{
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
+
 
 .navtitle
 {
@@ -63,8 +61,6 @@ nav
     color: whitesmoke;
     text-align: center;
     font-family: 'Ruda', sans-serif;
-    padding-bottom: 3em;
-    z-index: -2;
 }
 
 .welcome p
@@ -77,16 +73,19 @@ nav
     box-shadow: black 5px 5px 5px;
     margin: auto;
     position: relative;
-    top: -67%;
+    top: -7em;
 }
 
 .banner
 {
-   background: linear-gradient(-135deg, #9a3749, #3d161d);
-   height: 7em;
-   position: relative;
-   top: -7%;
-    z-index: -1;
+    background: linear-gradient(-135deg, #9a3749, #3d161d);
+    height: 5em;
+}
+
+.note
+{
+    position: relative;
+    top: -5em;
 }
 
 .note0
@@ -153,28 +152,35 @@ nav
     text-align: center;
 }
 
-.box-a0
-{
-    background: linear-gradient(-135deg, #014d98, #27415a);
-    padding: 5%;
-    text-align: center;
-}
-
-.box-a1
+.box-schedule-left
 {
     background: linear-gradient(-135deg, #9a3749, #3d161d);
-    padding: 5%;
+}
+
+.box-schedule-right
+{
+    background: linear-gradient(-135deg, rgba(54, 54, 54), rgb(32, 32, 32));
 }
 
 .box-b0
 {
-    background: linear-gradient(-135deg, #9a3749, #3d161d);
+    background: linear-gradient(-135deg, #014d98, #27415a);
     height: 20em;
 }
 
 .box-b1
 {
-    background: linear-gradient(-135deg, #014d98, #27415a);
+    background: linear-gradient(-135deg,#9a3749, #3d161d);
     height: 20em;
+}
+
+.border0
+{
+    margin: 1em;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 10px;
+    padding: 2em;
+    color: whitesmoke;
 }
     

@@ -18,15 +18,18 @@ body
 
 i
 {
+    position: relative;
     font-size: 9em;
     color: azure;
-    margin: .2em;
+    margin: auto;
+    top: 13%;
 }
 
 nav
 {
     background: linear-gradient(135deg, #014d98, #27415a);
 }
+
 
 .title
 {
@@ -39,6 +42,7 @@ nav
 .navbar
 {
     background: linear-gradient(45deg, rgba(54, 54, 54, .75) rgba(74, 74, 74, .75));
+    box-shadow: black 0px 7px 7px;
 }
 
 .container-fluid
@@ -48,43 +52,65 @@ nav
     border: 0;
 }
 
+.navtitle
+{
+    text-shadow: black 3px 5px 5px;
+}
+
 .welcome
 {
     background: linear-gradient(135deg, #014d98, #27415a);
-    color: ghostwhite;
+    color: whitesmoke;
     text-align: center;
     font-family: 'Ruda', sans-serif;
-    padding-top: 1.8em;
     padding-bottom: 3em;
+    z-index: -2;
 }
 
 .welcome p
 {
     background-color: rgba(54, 54, 54);
-    padding: .25em;
     border-radius: 250px;
     height: 250px;
     width: 250px;
+    text-shadow: black 0px 10px 10px;
+    box-shadow: black 5px 5px 5px;
+    margin: auto;
+    position: relative;
+    top: -67%;
+}
+
+.banner
+{
+   background: linear-gradient(-135deg, #9a3749, #3d161d);
+   height: 7em;
+   position: relative;
+   top: -7%;
+    z-index: -1;
 }
 
 .note0
 {
+    margin: auto;
     padding-left: 2.5em;
     padding-right: 2.5em;
     text-align: center;
-    border-right-color: azure;
+    border-right-color: whitesmoke;
     border-right-style: solid;
     border-right-width: .04em;
+    text-shadow: black 2px 3px 3px;
 }
 
 .note1
 {
+    margin: auto;
     padding-left: 2.5em;
     padding-right: 2.5em;
     text-align: center;
-    border-left-color: azure;
+    border-left-color: whitesmoke;
     border-left-style: solid;
     border-left-width: .04em;
+    text-shadow: black 2px 3px 3px;
 }
 
 .landing

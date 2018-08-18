@@ -1,9 +1,3 @@
-/* Color Scheme */
-/* Primary */
-.primary-0
-{
-   background-color:  rgba(54, 54, 54, 1);
-}
 
 body
 {
@@ -25,7 +19,12 @@ i
     font-size: 9em;
     color: azure;
     margin: auto;
-    top: 13%;
+    top:10%;
+}
+
+h2
+{
+    text-shadow: black 8px 8px 5px;
 }
 
 nav
@@ -61,19 +60,20 @@ nav
     color: whitesmoke;
     text-align: center;
     font-family: 'Ruda', sans-serif;
+    font-size: 1.2em;
 }
 
 .welcome p
 {
     background-color: rgba(54, 54, 54);
     border-radius: 250px;
-    height: 250px;
-    width: 250px;
+    height: 270px;
+    width: 270px;
     text-shadow: black 0px 10px 10px;
     box-shadow: black 5px 5px 5px;
     margin: auto;
     position: relative;
-    top: -7em;
+    top: -7.2em;
 }
 
 .banner
@@ -152,14 +152,98 @@ nav
     text-align: center;
 }
 
-.box-schedule-left
+.schedule 
 {
-    background: linear-gradient(-135deg, #9a3749, #3d161d);
+    background: linear-gradient(-135deg, rgba(54, 54, 54), rgb(32, 32, 32));
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    font-size: 1.3em;
+    margin: auto;
+    text-shadow: black 2px 3px 3px;
 }
 
 .box-schedule-right
 {
-    background: linear-gradient(-135deg, rgba(54, 54, 54), rgb(32, 32, 32));
+    margin: auto;
+}
+
+.box-schedule-left
+{
+    margin: auto;
+}
+
+.box-schedule-right0 p
+{
+    background: linear-gradient(-135deg,#9a3749, #3d161d);
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    color: whitesmoke;
+    margin: auto;
+    text-shadow: black 0px 10px 10px;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+}
+
+.box-schedule-left0 p
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    color: whitesmoke;
+    margin: auto;
+    text-shadow: black 0px 10px 10px;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+}
+
+.box-schedule-right1 p
+{
+    background: linear-gradient(-135deg, #014d98, #27415a);
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    color: whitesmoke;
+    margin: auto;
+    text-shadow: black 0px 10px 10px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.box-schedule-left1 p
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    color: whitesmoke;
+    margin: auto;
+    text-shadow: black 0px 10px 10px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.sunday0
+{
+    padding: 2em;
+    border-style: dashed;
+    border-width: .4em;
+    border-color: whitesmoke;
+    min-height: 13em;
+    margin: 1em;
+    box-shadow: black 11px 11px 5px;
+    background: linear-gradient(-135deg, #014d98, #27415a);
+}
+
+.sunday1
+{
+    padding: 2em;
+    border-style: dashed;
+    border-width: .4em;
+    border-color: whitesmoke;
+    min-height: 13em;
+    margin: 1em;
+    box-shadow: black 11px 11px 5px;
+    background: linear-gradient(-135deg,#9a3749, #3d161d);
 }
 
 .box-b0
@@ -182,5 +266,41 @@ nav
     border-width: 10px;
     padding: 2em;
     color: whitesmoke;
+}
+
+.mission
+{
+    background: linear-gradient(-135deg,#9a3749, #3d161d);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.7em;
+    text-shadow: black 5px 5px 5px;
+    font-size: 1.2em;
+    text-justify: newspaper;
+}
+
+.mission-div
+{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: auto;
+}
+
+.mission h2
+{
+    text-shadow: black 5px 5px 5px;
+    padding-bottom: .5em;
+}
+
+.mission p
+{
+    text-justify: newspaper;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-bottom-style: none;
+    border-top-style: none;
+    padding: .7em;
+    border-radius: 25px;
 }
     

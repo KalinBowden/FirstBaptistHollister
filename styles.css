@@ -303,4 +303,46 @@ nav
     padding: .7em;
     border-radius: 25px;
 }
-    
+
+.contact
+{
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    background: linear-gradient(-135deg, #014d98, #27415a);
+    padding-top: 2.5%;
+    text-shadow: black 3px 3px 3px;
+    padding-bottom: 5%;
+}
+
+.contact h2
+{
+    text-shadow: black 5px 5px 5px;
+}
+
+.contact-info
+{
+    margin-top: 1.75%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-field
+{
+    text-align: left;
+}
+
+.contact-input
+{
+    text-align: right;
+}
+   
+.contact.directions
+{
+
+}
+
+.contact-address
+{
+    padding: .25em;
+}

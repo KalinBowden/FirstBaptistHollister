@@ -304,12 +304,34 @@ nav
     border-radius: 25px;
 }
 
+.directions
+{
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(-135deg, #014d98, #27415a);
+    color: whitesmoke;
+    padding: 2.5em;
+}
+
+.directions h2
+{
+    margin-bottom: 1em;
+}
+
+.directions iframe
+{
+    box-shadow: black 10px 10px 10px;
+    border-style: dashed;
+    border-width: .4em;
+    border-color: whitesmoke;
+}
+
 .contact
 {
     margin: auto;
     text-align: center;
     color: whitesmoke;
-    background: linear-gradient(-135deg, #014d98, #27415a);
+    background: linear-gradient(-135deg,#9a3749, #3d161d);
     padding-top: 2.5%;
     text-shadow: black 3px 3px 3px;
     padding-bottom: 5%;

@@ -368,3 +368,15 @@ nav
 {
     padding: .25em;
 }
+
+form
+{
+    margin: auto;
+    width: 90%;
+}
+
+input, textarea
+{
+    margin: 1em;
+}
+

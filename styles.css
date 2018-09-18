@@ -278,9 +278,15 @@ nav
     text-shadow: black 5px 5px 5px;
     font-size: 1.2em;
     text-justify: newspaper;
+    margin: 0;
 }
 
-.mission-div
+.row
+{
+    margin: 0;
+}
+
+.mission div
 {
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -328,6 +334,7 @@ nav
 
 .contact
 {
+    margin: 0;
     margin: auto;
     text-align: center;
     color: whitesmoke;
@@ -344,6 +351,7 @@ nav
 
 .contact-info
 {
+    margin: 0;
     margin-top: 1.75%;
     padding-left: 5%;
     padding-right: 5%;
@@ -357,11 +365,6 @@ nav
 .contact-input
 {
     text-align: right;
-}
-   
-.contact.directions
-{
-
 }
 
 .contact-address

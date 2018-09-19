@@ -30,14 +30,15 @@ h2
 nav
 {
     background: linear-gradient(135deg, #014d98, #27415a);
+    color: whitesmoke;
 }
 
 
 .title
 {
     font-family: 'Ruda', sans-serif;
-    color: ghostwhite;
-    font-size: 2.66em;
+    color: whitesmoke;
+    font-size: 1.50em;
     text-shadow: #014d98 .15em .15em .5em;
 }
 
@@ -47,6 +48,15 @@ nav
     box-shadow: black 0px 7px 7px;
 }
 
+.nav-item
+{
+    font-size: 1.45em;
+}
+
+.cus-link
+{
+    color: whitesmoke;
+}
 
 
 .navtitle
@@ -401,3 +411,16 @@ footer>div>div>h2
     font-size: 2.08em;
 }
 
+a:active
+{
+    color: whitesmoke;
+}
+a:hover
+{
+    color: whitesmoke;
+}
+
+.navbar, .navbar-light, .bg-light
+{
+    color: whitesmoke;
+}

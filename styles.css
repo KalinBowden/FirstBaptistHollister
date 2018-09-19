@@ -383,3 +383,21 @@ input, textarea
     margin: 1em;
 }
 
+/* Footer */
+footer
+{
+    margin: 0;
+    border: 0;
+    padding: 2em;
+
+    text-align: center;
+    
+    color: whitesmoke;
+    background: linear-gradient(-135deg, rgba(54, 54, 54), rgb(32, 32, 32));
+}
+
+footer>div>div>h2
+{
+    font-size: 2.08em;
+}
+

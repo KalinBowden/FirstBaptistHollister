@@ -132,12 +132,12 @@ nav
 
 .cta
 {
-    color:  ghostwhite;;
+    color:  ghostwhite;
     padding: 1.2em;
     margin-left: 60%;
     margin-right: 10%;
     margin-top: 10%;
-    background: linear-gradient(45deg, rgba(54, 54, 54, .75), rgba(74, 74, 74, .75));
+    background: linear-gradient(45deg, rgba(54, 54, 54, 1), rgba(74, 74, 74, 1));
     box-shadow: dimgray .7em .7em .7em;
     border-radius: 1.2em;
     text-align: right;
@@ -148,12 +148,14 @@ nav
     font-family: 'Ruda', sans-serif;
     text-align: right;
     font-size: 3.8em;
+    text-shadow: black 2px 2px 2px;
 }
 
 .cta h4
 {
     font-family: 'Ruda', sans-serif;
     text-align: right;
+    text-shadow: black 1px 1px 1px;
 }
 
 .cta button
@@ -239,9 +241,10 @@ nav
     border-width: .4em;
     border-color: whitesmoke;
     min-height: 13em;
-    margin: 1em;
+    margin: 2em;
     box-shadow: black 11px 11px 5px;
     background: linear-gradient(-135deg, #014d98, #27415a);
+    text-align: center;
 }
 
 .sunday1
@@ -251,9 +254,10 @@ nav
     border-width: .4em;
     border-color: whitesmoke;
     min-height: 13em;
-    margin: 1em;
+    margin: 2em;
     box-shadow: black 11px 11px 5px;
     background: linear-gradient(-135deg,#9a3749, #3d161d);
+    text-align: center;
 }
 
 .box-b0
@@ -303,6 +307,11 @@ nav
     margin: auto;
 }
 
+.mission div h2
+{
+    height: 2em;
+}
+
 .mission h2
 {
     text-shadow: black 5px 5px 5px;
@@ -331,6 +340,7 @@ nav
 
 .directions h2
 {
+    font-family: 'Ruda', sans-serif;
     margin-bottom: 1em;
 }
 
@@ -393,6 +403,19 @@ input, textarea
     margin: 1em;
 }
 
+.btn
+{
+    font-size:1.35em;
+}
+
+.btn-outline
+{
+    background-color: #9a3749;
+    color: whitesmoke;
+    box-shadow: black 3px 3px 3px;
+    text-shadow: black 2px 2px 2px;
+}
+
 /* Footer */
 footer
 {
@@ -424,3 +447,75 @@ a:hover
 {
     color: whitesmoke;
 }
+
+/*
+    Media Queries
+*/
+@media only screen and (max-width: 1250px) 
+{
+    .cta h1
+    {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 1000px) 
+{
+
+    .collapseOnMobile
+    {
+        display: none;
+        overflow: hidden;
+    }
+
+    .box-schedule-left
+    {
+        margin-top: 2em;
+    }
+
+    .schedule
+    {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 875px) 
+{
+    .cta
+    {
+        display: none;
+        overflow: hidden;
+    }   
+
+    .landing
+    {
+        height: auto;
+    }
+
+    .banner
+    {
+        height: 8em;
+    }
+ 
+    .directions
+    {
+        padding-right: 0.15em;
+        padding-left: 0.15em;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+
+    .sunday0, .sunday1
+    {
+        text-align: center;
+    }
+
+    .cta h1
+    {
+        font-size: 1.5em;
+    }
+}
+

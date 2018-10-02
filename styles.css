@@ -164,6 +164,16 @@ nav
     text-align: center;
 }
 
+.cta b
+{
+    background-color: #9a3749;
+}
+
+.cta b
+{
+    background-color: #9a3749;
+}
+
 .schedule 
 {
     background: linear-gradient(-135deg, rgba(54, 54, 54), rgb(32, 32, 32));
@@ -334,7 +344,7 @@ nav
     margin: auto;
     text-align: center;
     background: linear-gradient(-135deg, #014d98, #27415a);
-    color: whitesmoke;
+    color: #9a3749;
     padding: 2.5em;
 }
 
@@ -438,10 +448,8 @@ footer
     margin: 0;
     border: 0;
     padding: 2em;
-
     text-align: center;
-    
-    color: whitesmoke;
+    color: #9a3749;
     background: linear-gradient(-135deg, rgba(54, 54, 54), rgb(32, 32, 32));
 }
 
@@ -456,10 +464,26 @@ footer a
     text-shadow: black 2px 2px 2px;
 }
 
+.calender
+{
+    background-color: black;
+}
+
+.calender iframe
+{
+    margin: auto;
+}
+
+a:link
+{
+    color: whitesmoke;
+}
+
 a:active
 {
     color: whitesmoke;
 }
+
 a:hover
 {
     color: whitesmoke;

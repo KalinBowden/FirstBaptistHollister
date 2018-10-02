@@ -450,6 +450,12 @@ footer>div>div>h2
     font-size: 2.08em;
 }
 
+footer a
+{
+    color: whitesmoke;
+    text-shadow: black 2px 2px 2px;
+}
+
 a:active
 {
     color: whitesmoke;
@@ -457,6 +463,7 @@ a:active
 a:hover
 {
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .navbar, .navbar-light, .bg-light

@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
 
     <title>FBC Hollister</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
 
@@ -19,58 +21,60 @@
   <body>
       <!-- Container -->
     <div class="container-fluid">
-
-        <!-- landing -->
-        <div class="landing">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
-                    </a>
-                <a class="navbar-brand title" href="#"><b class="navtitle title">First Baptist Church Hollister</b></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link cus-link active" href="#" style="color: whitesmoke;">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link cus-link " href="#about" style="color: whitesmoke;">About</a>
-                    <a class="nav-item nav-link cus-link " href="#visit" style="color: whitesmoke;">Visit</a>
-                    <a class="nav-item nav-link cus-link " href="#events" style="color: whitesmoke;">Events</a>
-                    <a class="nav-item nav-link cus-link " href="#contact" style="color: whitesmoke;">Contact</a>
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
+                        </a>
+                    <a class="navbar-brand title" href="#"><b class="navtitle title">First Baptist Church Hollister</b></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-item nav-link cus-link active" href="#" style="color: whitesmoke;">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link cus-link " href="#about" style="color: whitesmoke;">About</a>
+                            <a class="nav-item nav-link cus-link " href="#visit" style="color: whitesmoke;">Visit</a>
+                            <a class="nav-item nav-link cus-link " href="#events" style="color: whitesmoke;">Events</a>
+                            <a class="nav-item nav-link cus-link " href="#contact" style="color: whitesmoke;">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+    
+            <!-- landing -->
+            <div class="landing" id="front">
+                <!-- Call to action -->
+                <div class="cta" id="h">
+                    <h1><span style="color: #9a3749; text-shadow: whitesmoke 2px 2px 2px;">HIS</span> LIGHTHOUSE ON THE HILL</h1>
+                    <h4>Come join us for a message from Gods word. </h4>
+                    <a type="button" href="#visit" class="btn btn-outline"> <b>Join Us</b> </a>
+                </div>
+            </div>
+    
+            <!-- Welcome -->
+            <div class="welcome">
+            <a name="about"></a>
+              <div class="banner"></div>
+              <div><p><i class="fas fa-church"></i></p></div>
+              <div class="note">
+                <h1><span style="color: #9a3749; text-shadow: black 2px 2px 2px;"><strong> A Brief Word From Our Pastor </strong></span></h1>
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-5 note0">
+                      This is filler text that will hold the place of the clients text. Lipsom ipsom are latin words commonly used for filling text with vamp. This is one of those things that you wonder how much it gets dome
+                    </div>
+                    <div class="col-md-5 note1">
+                        This is filler text that will hold the place of the clients text. Lipsom ipsom are latin words commonly used for filling text with vamp. This is one of those things that you wonder how much it gets dome
+                    </div>
+                    <div class="col-md-1">
                     </div>
                 </div>
-            </nav>
-
-
-            <!-- Call to action -->
-            <div class="cta">
-                <h1><span style="color: #9a3749; text-shadow: whitesmoke 2px 2px 2px;">HIS</span> LIGHTHOUSE ON THE HILL</h1>
-                <h4>Come join us for a message sercive from Gods word. </h4>
-                <a type="button" href="#visit" class="btn btn-outline"> <b>Join Us</b> </a>
+              </div>
             </div>
-        </div>
-
-        <!-- Welcome -->
-        <div class="welcome">
-        <a name="about"></a>
-          <div class="banner"></div>
-          <div><p><i class="fas fa-church"></i></p></div>
-          <div class="note">
-            <h1><span style="color: #9a3749; text-shadow: black 2px 2px 2px;"><strong> A Brief Word From Our Pastor </strong></span></h1>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5 note0">
-                  This is filler text that will hold the place of the clients text. Lipsom ipsom are latin words commonly used for filling text with vamp. This is one of those things that you wonder how much it gets dome
-                </div>
-                <div class="col-md-5 note1">
-                    This is filler text that will hold the place of the clients text. Lipsom ipsom are latin words commonly used for filling text with vamp. This is one of those things that you wonder how much it gets dome
-                </div>
-                <div class="col-md-1">
-                </div>
-            </div>
-          </div>
-        </div>
+        </header>
+         
+            
 
         <!-- Mission statment -->
         <div class="row mission">
@@ -235,8 +239,16 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  </body>
+    <script>
+        $(document).ready(function(){
+
+            $('header').ready(function(){$('#front').delay(800).slideDown(2300);});
+            $('#h').delay(3000).slideDown('slow');
+            
+        });
+    </script>
+</body>
 </html>

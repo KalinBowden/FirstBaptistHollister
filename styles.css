@@ -122,21 +122,30 @@ nav
     text-shadow: black 2px 3px 3px;
 }
 
-.landing
+header
 {
     background-image: url("assets/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 54em;
+}
+
+.landing
+{
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 44em;
+    padding-top: 10%
 }
 
 .cta
 {
+    display: none;
     color:  ghostwhite;
     padding: 1.2em;
     margin-left: 60%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 0%;
     background: linear-gradient(45deg, rgba(54, 54, 54, 1), rgba(74, 74, 74, 1));
     box-shadow: dimgray .7em .7em .7em;
     border-radius: 1.2em;

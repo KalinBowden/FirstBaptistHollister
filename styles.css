@@ -571,6 +571,8 @@ a:hover
     .landing
     {
         height: auto;
+        display: none;
+        overflow: hidden;
     }
 
     .banner

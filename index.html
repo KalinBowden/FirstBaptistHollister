@@ -245,8 +245,26 @@
     <script>
         $(document).ready(function(){
 
+            var wasMobile = false;
+
             $('header').ready(function(){$('#front').delay(800).slideDown(2300);});
             $('#h').delay(3000).slideDown('slow','swing');
+            
+            //$('window').resize(checkPosition());
+
+
+            $(window).resize(function()
+            {
+                if ($(window).width() <= 875 && !wasMobile){	
+                    $('#front').slideUp(10);
+                    wasMobile = !wasMobile;
+                }
+                else if ($(window).width() >= 875 && wasMobile )
+                {
+                    $('#front').slideDown(10);
+                    wasMobile = !wasMobile;
+                }
+            });
             
         });
     </script>
